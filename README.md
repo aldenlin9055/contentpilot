@@ -22,9 +22,9 @@
 
 把下面这句话贴进能访问网页或 GitHub 的 AI agent 对话框：
 
-> 请完整读取 https://raw.githubusercontent.com/aldenlin9055/contentpilot/main/START.md ，加载 ContentPilot，带我完成首次业务设置，并制作第一份 Facebook 内容；读不到文件时直接告诉我。
+> 帮我安装 GitHub 上的 ContentPilot：https://github.com/aldenlin9055/contentpilot，并教我使用。
 
-AI 读取启动文件后，会确认当前能力，引导你设置业务、受众、目的和语言。你确认后再开始制作。这个入口不是插件安装器，不会自动调用付费工具或发布内容。
+AI 负责读取项目里的 `START.md`，根据当前环境完成设置，再教你使用。有本地文件能力时，将项目文件保存在独立目录；只能在对话中使用时，读取规则并说明保存限制。随后引导你设置业务、受众、目的和语言，你确认后再开始制作。这里的“安装”是准备文件和工作流程，不是安装可执行程序；不会自动调用付费工具或发布内容。
 
 ### AI 无法读取链接怎么办
 
